@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #252432;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #1e1e2f;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input[type="password"],
+input[type="text"]{
+    padding: 8px;
+    border: 1px solid #444;
+    background: #2c2c3c;
+    color:white;
+    outline:none;
+}
+
+button{
+    padding: 8px 12px;
+    border: none;
+    width: 120px;
+    background-color: #007bff;
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056cc;
+}
+
+button.hide-password {
+    background-color: #dc3545;
+  }
